@@ -11,10 +11,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Fanky Zhang # add your name
 author-img: fankyzhang.jpg # add your photo
-about-author: I am a engineer focusing on data-mining application development. Always hungry to keep learning. # add description
+about-author: I am an engineer focusing on data-mining application development. Always hungry to keep learning. # add description
 social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: furulizi # add your Github handle
+social-facebook: https://www.facebook.com/fanky.zhang1 # add your Facebook handle
+social-github:  # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: zhang.fq@foxmail.com # add your Email address
 
