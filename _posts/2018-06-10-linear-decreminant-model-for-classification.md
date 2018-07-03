@@ -7,6 +7,16 @@ img:  # Add image post (optional)
 tags: [PRML]
 ---
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # PRML 第四章 分类线性模型
 > 分类的目标是将输入变量 $x$分到 $K$个离散的类别 $C_{k}的某一类。线性模型是指决策面是输入向量 $x$的线性函数，因此被定义为 $D$ 维输入空间中的 $D-1$维超平面。如果数据集可以被线性决策面精确地分类，那么我们就说数据集是线性可分的。
 
