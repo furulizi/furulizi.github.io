@@ -125,7 +125,7 @@ $$
 ## 生成式模型与判别式的区别
 1. Probabilistic Generative Models，通过MAP方式建立概率模型，需要先验概率 $P(C_{k})$,类条件概率和边缘概率 $$P(\mathbf{x}|C_{k})$$ 。
 
-2. 判别式模型是直接求 $P(C_{k}|\phi(\mathbf{x}))$ ，
+2. 判别式模型是直接求 $$P(C_{k}|\phi(\mathbf{x}))$$ ，
 
 3. 如果上述2中的 $\phi(\mathbf{x}) = \mathbf{x}$，那么从生成式模型中会得到判别式模型，而且生成式模型中的MLE与判别式模型中使用的MLE推倒梯度是类似的。
 
@@ -139,8 +139,8 @@ $$
 
 
 - MAP贝叶斯
-MAP方法的贝叶斯先求出使得marginal likelihood 最大化的参数 $$\alpha^{*}$$ 和 $$\beta^{*}$$ ，然后让hyper-parameter 取固定的值 $$\alpha^*$$ 和 $$\beta^*$$ ，再对 $$\mathbf{w}$$ 进行 marginalize:
+MAP方法的贝叶斯先求出使得marginal likelihood 最大化的参数 $$\alpha^*$$ 和 $$\beta^*$$ ，然后让hyper-parameter 取固定的值 $$\alpha^*$$ 和 $$\beta^*$$ ，再对 $$\mathbf{w}$$ 进行 marginalize:
 $$
 p(t|\mathbf{t})\approx p(t|\mathbf{t}.\alpha^*.\beta^*) = \int p(t|\mathbf{w}.\beta^*)p(\mathbf{w}|\mathbf{t}.\alpha^*.\beta^*)d\mathbf{w}
 $$
-这里 $\alpha^*$ 和 $\beta^*$ 为超参数。
+这里 $$\alpha^*$$ 和 $$\beta^*$$ 为超参数。
