@@ -42,9 +42,9 @@ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 ### 2. logistic Regression
 还记得概率生成式模型中曾得到一个结论：即使是一般情况下，类别 $C_{1}$ 的后验概率写成作用在特征向量 $\phi$ 的线性函数上的 logistic sigmoid 函数的形式，
 $$
-\begin{aligned} 
+\begin{align}
 p(C_{1}|\phi) = y(\phi) = \sigma(\omega^T\phi)
-\end{aligned} 
+\end{align}
 $$
 这里的 $\sigma(\cdot)$ 是logistic sigmoid函数。
 
