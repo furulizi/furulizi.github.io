@@ -99,11 +99,11 @@ u^T \Phi^T R \Phi u = (u^T \Phi^T R^{1/2})(R^{1/2} \Phi u) = \|R^{1/2} \Phi u\|^
 $$
 也就证明 $\Phi^T R \Phi$ 是正定的。
 
-&emsp;&emsp;另一方面，考虑 $E(\omega)$ 在最小值点 $\omega^{*}$ 处的泰勒展开式（一次项在  $\omega^{*}$ 处为零），
+&emsp;&emsp;另一方面，考虑 $E(\omega)$ 在最小值点 $$\omega^*$$ 处的泰勒展开式（一次项在  $$\omega^*$$ 处为零），
 $$
-E(\omega) = E(\omega^{*}) + \frac{1}{2}(\omega - \omega^{*})^T H(\omega - \omega^{*})
+E(\omega) = E(\omega^*) + \frac{1}{2}(\omega - \omega^*)^T H(\omega - \omega^*)
 $$
-现在我们令 $\omega = \omega^{*} + \lambda v$, 其中 $v$ 是在 $\omega$ 空间中的任意非零向量，那么上式变成：
+现在我们令 $$\omega = \omega^* + \lambda v$$, 其中 $v$ 是在 $\omega$ 空间中的任意非零向量，那么上式变成：
 $$\begin{split}
 E(\omega) = &E(\omega - \lambda v) + \frac {1}{2}(\lambda v)^T H (\lambda v)\\
 =&E(\omega - \lambda v) + \frac {1}{2}\lambda^{2} v^T H v
