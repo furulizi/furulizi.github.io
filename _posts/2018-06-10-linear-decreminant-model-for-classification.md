@@ -42,7 +42,9 @@ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 ### 2. logistic Regression
 还记得概率生成式模型中曾得到一个结论：即使是一般情况下，类别 $C_{1}$ 的后验概率写成作用在特征向量 $\phi$ 的线性函数上的 logistic sigmoid 函数的形式，
 $$
+\begin{aligned} 
 p(C_{1}|\phi) = y(\phi) = \sigma(\omega^T\phi)
+\end{aligned} 
 $$
 这里的 $\sigma(\cdot)$ 是logistic sigmoid函数。
 
@@ -123,9 +125,17 @@ $$
 ### 5.扩展到多分类问题和指数族问题（略）
 
 ## 生成式模型与判别式的区别
-1. Probabilistic Generative Models，通过MAP方式建立概率模型，需要先验概率 $$P(C_{k})$$ ,类条件概率和边缘概率 $$P(\mathbf{x}|C_{k})$$ 。
+1. Probabilistic Generative Models，通过MAP方式建立概率模型，需要先验概率 $$P(C_{k})$$ ,类条件概率和边缘概率 
+$$
+P(\mathbf{x}|C_{k})
+$$
+。
 
-2. 判别式模型是直接求 $$P(C_{k}|\phi(\mathbf{x}))$$ ，
+2. 判别式模型是直接求 
+$$
+P(C_{k}|\phi(\mathbf{x}))
+$$
+。
 
 3. 如果上述2中的 $$\phi(\mathbf{x}) = \mathbf{x}$$，那么从生成式模型中会得到判别式模型，而且生成式模型中的MLE与判别式模型中使用的MLE推倒梯度是类似的。
 
