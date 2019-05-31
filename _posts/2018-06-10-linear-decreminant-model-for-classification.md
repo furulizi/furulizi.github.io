@@ -116,7 +116,7 @@ $$
 $$
 H(\omega - \omega^*) = 0
 $$
-由于 $H$ 是正定的，且 $H^{-1}$ 存在（ $H = \Phi^{T}R\Phi$ ），那么 \omega = \omega^* ，证毕。
+由于 $H$ 是正定的，且 $H^{-1}$ 存在（ $H = \Phi^{T}R\Phi$ ），那么 $$\omega = \omega^*$$ ，证毕。
 
 
 ### 4. probit 回归
